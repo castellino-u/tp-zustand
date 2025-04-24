@@ -4,9 +4,12 @@ import styles from "./ListTareas.module.css";
 import { getAllTareas } from "../../../../http/tareas";
 import { CardList } from "../CardList/CardList";
 import { ITarea } from "../../../../types/ITarea";
+import { Modal } from "../Modal/Modal";
 
 export const ListTareas = () => {
   
+  const setTareaActiva = tareaStore((state) => state.setTareaActiva)
+
   const tareas = tareaStore((state) => state.tareas);
   const setArrayTareas = tareaStore((state) => state.setArrayTareas);
   
@@ -30,7 +33,7 @@ export const ListTareas = () => {
         setOpenModalTarea(false)
         setTareaActiva(null)
     }
-   
+
 
   return (
     <>

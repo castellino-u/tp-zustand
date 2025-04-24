@@ -19,14 +19,14 @@
 .containerTitleAndButton button{
     padding: 10px;
     border-radius: 12px;
-    background-color: antiquewhite;
+    background-color: rgb(197, 196, 195);
     font-weight: bold;
     box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.2);
     border: none;
 }
 
 .containerTitleAndButton button:hover{
-    background-color: bisque;
+    background-color: rgb(219, 219, 219);
     cursor: pointer;
 }
 

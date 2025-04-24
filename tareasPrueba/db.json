@@ -1,22 +1,31 @@
 {
-    "tareas" : [{
-        "id" : "123",
-        "titulo" : "titulazo1",
-        "descripcion" : "descripcion2",
-        "fechaLimite" : "33322"
+  "tareas": [
+    {
+      "id": "123",
+      "titulo": "titulazo1",
+      "descripcion": "descripcion2",
+      "fechaLimite": "33322"
     },
     {
-        "id" : "1234",
-        "titulo" : "titulazo2",
-        "descripcion" : "descripcion2",
-        "fechaLimite" : "33322"
+      "id": "1234",
+      "titulo": "titulazo2",
+      "descripcion": "descripcion2",
+      "fechaLimite": "33322"
     },
     {
-        "id" : "1235",
-        "titulo" : "titulazo3",
-        "descripcion" : "descripcion2",
-        "fechaLimite" : "33322"
+      "id": "1235",
+      "titulo": "titulazo3",
+      "descripcion": "descripcion2",
+      "fechaLimite": "33322"
+    },
+    {
+      "id": "8988",
+      "nuevaTarea": {
+        "titulo": "gym",
+        "descripcion": "ir al gym",
+        "fechaLimite": "2025-04-25",
+        "id": "1745466348296"
+      }
     }
-
-]
+  ]
 }
